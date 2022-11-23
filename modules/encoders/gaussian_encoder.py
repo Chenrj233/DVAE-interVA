@@ -1,9 +1,7 @@
 import math
 import torch
-
-
 from .encoder import EncoderBase
-from ..utils import log_sum_exp
+
 
 class GaussianEncoderBase(EncoderBase):
     """docstring for EncoderBase"""

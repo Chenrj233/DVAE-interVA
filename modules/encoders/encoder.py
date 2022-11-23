@@ -1,7 +1,5 @@
 import torch.nn as nn
 
-from ..utils import log_sum_exp
-
 class EncoderBase(nn.Module):
     """docstring for EncoderBase"""
     def __init__(self):
