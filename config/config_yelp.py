@@ -1,0 +1,20 @@
+
+params={
+    'enc_type': 'lstm',
+    'dec_type': 'lstm',
+    'nz': 32,
+    'ni': 512,
+    'att_dim': 64,
+    'sentiemb_dim':512,
+    'disen_dim': 32,
+    'enc_nh': 512,
+    'dec_nh': 512,
+    'dec_dropout_in': 0.3,
+    'dec_dropout_out': 0.3,
+    'batch_size': 256,
+    'epochs': 300,
+    'test_nepoch': 256,
+    'train_data': 'datasets/yelp/yelp_train.csv',
+    'test_data': 'datasets/yelp/yelp_test.csv',
+    'label': True,
+}
