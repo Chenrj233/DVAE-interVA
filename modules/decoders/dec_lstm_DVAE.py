@@ -302,6 +302,6 @@ class LSTMOurDecoder(DecoderBase):
 
             mask = torch.mul((max_index != end_symbol), mask)
 
-            return decoded_batch
+        return decoded_batch
 
 
